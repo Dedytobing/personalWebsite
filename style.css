@@ -1,48 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Century Gothic;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
 }
 
-header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.644),rgba(0,0,0,0.644)),url(../eren.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.644)),
+    url(../eren.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 25px;
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 60px;
 }
 
-ul li{
-    display: inline-block;
+ul li {
+  display: inline-block;
 }
 
-ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 5px 20px;
-    border:1px solid transparent;
-    transition: 0.6s ease;
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
 }
 
-ul li a:hover{
-    background-color: rgba(255,255,255,0.1);
-    border:1px solid rgba(255,255,255,0.2);
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-ul li.active a{
-    background-color: rgba(255,255,255,0.3);
-    border:1px solid rgba(255,255,255,0.4);
+ul li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-.logo img{
-    margin-top: 15px;
-    margin-left: 50px;
-    float: left;
-    width: 50px;
-    height: auto;
+.logo img {
+  margin-top: 15px;
+  margin-left: 50px;
+  float: left;
+  width: 50px;
+  height: auto;
 }
+
+.bagianMain {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bagianMain h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bagianMain .logoMain {
+  position: absolute;
+  top: 120%;
+  left: 35%;
+}
+.bagianMain .logoMain a {
+  margin-left: 10px;
+  color: white;
+  font-size: 30px;
+}
+.logoMain a:hover i.fab.fa-github {
+  color: black;
+}
+.logoMain a:hover i.fab.fa-instagram {
+  color: #C13584;
+}
+.logoMain a:hover i.fab.fa-youtube {
+  color: red;
+}
+
