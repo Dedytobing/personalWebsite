@@ -51,25 +51,30 @@ ul li.active a {
 
 .bagianMain {
   position: absolute;
-  top: 65%;
-  left: 50%;
+  top: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 .bagianMain h1 {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+.bagianMain h3 {
+  color: white;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
 
 .bagianMain .logoMain {
   position: absolute;
-  top: 120%;
-  left: 35%;
+  top: 110%;
 }
 .bagianMain .logoMain a {
-  margin-left: 10px;
   color: white;
-  font-size: 30px;
+  margin-left: 0px;
+  font-size: 20px;
 }
 .logoMain a:hover i.fab.fa-github {
   color: black;
@@ -80,4 +85,56 @@ ul li.active a {
 .logoMain a:hover i.fab.fa-youtube {
   color: red;
 }
-
+.bagianMain .btnHomepage{
+  border: 1px solid white;
+  background-color: #2b7d90;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  position: absolute;
+  cursor: pointer;
+  top: 100%;
+  left: 0;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+.bagianMain .btnHomepage:hover{
+  background-color: #0087a6;
+}
+.profil img{
+  position: absolute;
+  top: -110%;
+  left: 150%;
+  width: 35%;
+  border-radius: 50px;
+}
+.about-me {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+span{
+  color: #22C4E8;
+}
+.footerIndex{
+  position: absolute;
+  background-color: #22C4E8;
+  height: 5px;
+  width: 100%;
+  left: 0%;
+  bottom: 3%;  
+}
+.footerIndex .text-header{
+  position: absolute;
+  background-color: white;
+  height: 17px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 100%;  
+}
