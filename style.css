@@ -319,3 +319,38 @@ text-align: center;
   text-decoration: none;
   font-size: 12px;
 }
+
+.container-certificate{
+  padding: 0px 0px;
+}
+.container-certificate h1{
+color:white;
+text-align: center;
+}
+
+.container-certificate .cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-certificate .card{
+  width: 350px;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 0px 0px 5px 0px;
+}
+
+.container-certificate .card img{
+  width: 100%;
+}
+
+.container-certificate .card p{
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
